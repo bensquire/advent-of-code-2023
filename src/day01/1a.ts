@@ -28,7 +28,7 @@ const findLastNumber = (input: string) => {
 	return '0'
 }
 
-export const solveDayOneA = (inputStrings: string[]) => {
+export const solve = (inputStrings: string[]) => {
 	let total: number = 0
 
 	inputStrings.forEach((inputString: string) => {

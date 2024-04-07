@@ -28,7 +28,7 @@ const findLastNumber = (input: string) => {
 	return '0'
 }
 
-export const solveDayOneB = (inputStrings: string[]) => {
+export const solve = (inputStrings: string[]) => {
 	let total: number = 0
 
 	// We're going to replace string numbers with digit numbers, but this fixes string numbers that butt up against one another

@@ -26,7 +26,7 @@ const extractColour = (line: string, color: COLOURS): number[] => {
 	return matches ? matches.map(match => parseInt(match.match(/\d+/)![0])) : [];
 }
 
-export const solveDayTwoA = (challengeData: string): number => {
+export const solve = (challengeData: string): number => {
 	const validGameIds: number[] = []
 
 	challengeData
