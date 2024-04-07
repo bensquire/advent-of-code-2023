@@ -9,9 +9,9 @@ import {challengeData as dayTwoChallengeData} from "./day02/challengeData";
 import {solve as solveDayThreeA} from "./day03/3a";
 import {challengeData as dayThreeChallengeData} from "./day03/challengeData";
 
-// console.log({day1a: solveDayOneA(dayOneChallengeData)})
-// console.log({day1b: solveDayOneB(dayOneChallengeData)})
-// console.log({day2a: solveDayTwoA(dayTwoChallengeData)})
-// console.log({day2b: solveDayTwoB(dayTwoChallengeData)})
-console.log({day3b: solveDayThreeA(dayThreeChallengeData)})
+console.log({day1a: solveDayOneA(dayOneChallengeData)})
+console.log({day1b: solveDayOneB(dayOneChallengeData)})
+console.log({day2a: solveDayTwoA(dayTwoChallengeData)})
+console.log({day2b: solveDayTwoB(dayTwoChallengeData)})
+console.log({day3a: solveDayThreeA(dayThreeChallengeData)})
 
