@@ -1,6 +1,6 @@
 import {solveDayOneB} from "./1b";
 
-describe('Advent of code day 1', () => {
+describe('Advent of code day 1b', () => {
 	test('can calculate a code with no numbers', () => {
 		const output = solveDayOneB(['tensrvldten'])
 		expect(output).toEqual(0)
